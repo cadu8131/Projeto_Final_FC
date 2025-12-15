@@ -1,6 +1,6 @@
-\# Projeto Final - Física Computacional
+\#Projeto Final - Física Computacional
 
-\## Programa de Pós Graduação em Física - DF UFPE
+\##Programa de Pós Graduação em Física - DF UFPE
 
 
 
@@ -13,7 +13,7 @@ Neste projeto, iremos imergir no mundo dos sólitons e dos defeitos topológicos
 
 
 
-\# Metodologia
+\#Metodologia
 
 No primeiro caso, faremos uso do método PCA seguido do K-Means, utilizando uma quantidade de grupos igual a 3, na separação, pois temos a possibilidade de ter uma reflexão, uma aniquilação e o que chamamos de "rebote" (colidem duas vezes e se separam). O método realizou isso de forma eficaz.
 
@@ -23,7 +23,7 @@ E a segunda técnica, é o treinamento de uma rede neural, o treinamento de um s
 
 
 
-\# Futuro
+\#Futuro
 
 
 
@@ -32,4 +32,12 @@ No futuro, pretendo trabalhar e implementar a previsão da reflexão dos dois ou
 
 
 Vale ressaltar que esse material possui um poder de publicação, é uma área não tão explorada no seguimento dos defeitos topológicos. Pretendo tratar esses tópicos em futuras reuniões de pesquisa com meus orientadores.
+
+
+
+\#Arquivos
+
+
+
+Dentro deste repositório teremos dois códigos em python. O primeiro deles é o classificador\_de\_soluções.py, que pelo próprio nome, podemos ver que ele aplica o PCA e o K-Means, gerando gráficos da separação em clusters. O segundo arquivo, o colisoes.py tenta reconstruir a dinâmica da reflexão.
 
